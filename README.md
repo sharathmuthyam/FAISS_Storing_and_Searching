@@ -1,3 +1,0 @@
-# learnninh
-  
-@ xnficonin
