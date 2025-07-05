@@ -38,6 +38,25 @@ you will see:
 You: what is rainbow
 📚 Top Relevant Chunks:
 ...
+
+
+## 📅 Update: July 5, 2025 Rag_v1_basic.py
+
+### 🔧 New Features / Commits Added:
+- ✅ **Built an end-to-end RAG pipeline**
+  - Uses `sentence-transformers` for embedding text chunks.
+  - Stores and searches embeddings using **FAISS**.
+- ✅ **Improved chunking strategy**
+  - Rulebook text is now chunked by word count (default 50).
+- ✅ **Integrated OpenAI GPT model** (or fallback to local Transformers)
+  - GPT is prompted using top retrieved context chunks.
+- ✅ **Threshold-based filtering of chunks** before prompting.
+- ✅ **Fallback logic** added for when no relevant chunk is found.
+- ✅ Logs and prints 🔍 retrieved chunks and final 🧠 answer.
+
+### 🧪 Example Interaction:
+
+
 👨‍💻 Created By
 Sharath Chandra Reddy Muthyam
 For learning how real-world AI engineers build semantic search and intelligent retrieval systems.
